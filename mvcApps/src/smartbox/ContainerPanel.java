@@ -38,7 +38,6 @@ public class ContainerPanel extends AppPanel {
 		ContainerView cview = (ContainerView) view;
 		cview.update();
 	}
-
 	public static void main(String[] args) {
 		AppFactory factory = new ContainerFactory();
         AppPanel panel = new ContainerPanel(factory);

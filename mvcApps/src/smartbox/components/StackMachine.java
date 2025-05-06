@@ -2,7 +2,7 @@ package smartbox.components;
 
 import smartbox.*;
 
-public class StackMachine {
+public class StackMachine extends Component implements CommandProcessor {
 
 	public IStack myStack;
 

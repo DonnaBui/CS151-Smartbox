@@ -3,7 +3,7 @@ package smartbox.components;
 import java.io.*;
 import smartbox.*;
 
-public class Console {
+public class Console extends Component implements App {
 
 	transient protected BufferedReader stdin;
 	transient protected PrintWriter stdout;
